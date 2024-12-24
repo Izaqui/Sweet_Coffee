@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 80vh;
+    padding: 1px 16px;
+    font-size: 1.5rem;
+    gap: 7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .img{
+    height:45vw; 
+    width: 45vw;
+    margin: auto;
+}
+.container .img2{
+    height:41vw; 
+    width: 30vw;
+    margin-left: 70rem;
+    margin-top: -38rem;
+}
+.card{
+    transition: 0.3s;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+    margin-left: 50rem;
+    text-align: center;
+    font-family: arial;
+    margin-top: -45rem;
+    position: relative;
+
+}
+.card input{
+    width: 15vw;
+    height: 1.8vw;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    border: #726161 solid;
+    font-size: 1.2rem;
+    transition: .7s ease;
+}
+.card input:hover{
+    transform: scale(1.06);
+    background-attachment: fixed;
+}

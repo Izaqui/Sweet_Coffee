@@ -1,0 +1,89 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 80vh;
+    padding: 1px 16px;
+    font-size: 1.5rem;
+    gap: 7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form .icon{
+    width: 8vw;
+    grid-column:span;
+    position:absolute;
+    margin-top: -9.8rem;
+    margin-left: -6rem;
+}
+.form .img{
+    height:45vw; 
+    width: 45vw;
+    margin: auto;
+    animation: floatImg 9s ease-in-out infinite; 
+}
+.form h1{
+    font-size: 5rem;
+    margin-bottom: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-login{
+    transition: 0.3s;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+    margin-left: -12rem;
+    text-align: center;
+    font-family: arial;
+    margin-top: 5%;
+    position: relative;
+
+}
+.card-login input{
+    width: 15vw;
+    height: 1.8vw;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    border: #726161 solid;
+    font-size: 1.2rem;
+    transition: .7s ease;
+}
+.card-login input:hover{
+    transform: scale(1.06);
+    background-attachment: fixed;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 3vh;
+    background-color: #726161;
+    border: #491414 solid;
+  }
+@keyframes floatImg {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-1.1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.img2{
+    align-items: center;
+    justify-items: center;
+    display:flex;
+    margin-right: 0.1rem;
+    margin-left: -2rem;
+    margin-top: 9rem;
+    width: 40rem;
+}
