@@ -1,0 +1,129 @@
+/* ======== Estilo Geral ======== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: #333;
+  background-image: url("../../assets/bg.avif");
+  background-size: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20rem;
+}
+
+h1 {
+  font-size: 5.7rem;
+  color: #f9f9f9;
+}
+.container h1{
+    margin-top: 1rem;
+    position: fixed;
+    
+}
+/* ======== Grid de Produtos ======== */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* ======== Card de Produto ======== */
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card h2 {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+}
+
+.product-card p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 1.1rem;
+  margin-bottom: auto; /* empurra o botão para baixo */
+}
+
+.product-card .buy-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+
+  margin-top: auto; /* garante que o botão fique no fim do conteúdo */
+}
+
+.product-card .buy-button:hover {
+  background-color: #0056b3;
+}
+/* ======== Botão de Comprar (opcional) ======== */
+
+.product-card .buy-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.buy-button{
+    display:grid;
+    margin-bottom: 0.1rem;
+    position:inherit;
+}
+
+.product-card .buy-button:hover {
+  background-color: #0056b3;
+}
+
+/* ======== Loader e Mensagens ======== */
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.error {
+  color: red;
+}

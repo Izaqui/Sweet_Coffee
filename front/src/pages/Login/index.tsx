@@ -15,7 +15,7 @@ function Login() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
-            const response = await api.post('/api/users', { email, password });
+            const response = await api.post('/users', { email, password });
             localStorage.setItem('token', response.data.token);
             alert('Login successful!');
             navigate("/dashboard"); 

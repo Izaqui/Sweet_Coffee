@@ -1,14 +1,99 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
+      "email": "test@example.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "password": "mypassword456"
+    },
+    {
+      "id": "45bc",
       "email": "user1@example.com",
       "password": "password123"
     },
     {
+      "id": "fd86",
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "9dae",
+      "email": "test@exemplo.com",
+      "password": "123"
+    },
+    {
+      "id": "c5c3",
+      "email": "test@exemplo.com",
+      "password": "123"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Caipirinha de café",
+      "description": "Criado no Brasil, a caipirinha de café é uma bebida bastante apreciada nos dias mais quentes. A combinação entre cachaça e café parece inusitada, mas entrega uma bebida bastante refrescante! Aproveite para finalizar com rodelas de limão e café em grãos.",
+      "price": 19.9,
+      "imageUrl": "https://blog.duasxicaras.com.br/wp-content/uploads/2023/06/3.jpg"
+    },
+    {
       "id": 2,
-      "email": "user2@example.com",
-      "password": "mypassword456"
+      "name": "Irish Coffee",
+      "description": "Mais um bebida feita com whisky, o irish coffee é um drink com café quente. O whisky irlandês chega com aquela sensação de queimação na garganta. Assim, ao contrário do seu primo imperial, o irish coffee é rústico.",
+      "price": 22.99,
+      "imageUrl": "https://blog.duasxicaras.com.br/wp-content/uploads/2023/06/7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cactus café",
+      "description": "O cactus café lembra um margarita, já que sua composição é feita a partir da mistura de café e tequila. É um drink que também chega ao paladar com sabor forte e marcante.",
+      "price": 24.5,
+      "imageUrl": "https://blog.duasxicaras.com.br/wp-content/uploads/2023/06/cactus-cafe.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Expresso Martini",
+      "description": "O expresso martini é um coquetel que leva licor de café, vodka e uma dose de expresso. Foi criado em Londres, em 1983, pelo barista Dick Bradsell. Inicialmente,  o drink com café se chamava Vodka Expresso.",
+      "price": 29,
+      "imageUrl": "https://www.divvino.com.br/blog/wp-content/uploads/2022/03/drinks-com-cafe-expresso-martini.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Café cubano",
+      "description": "FO café cubano é um coquetel alcoólico que mistura a famosa bebida do país, o rum, com uma dose de café expresso. Para complementar os sabores do drink, a receita leva também suco de lima-da-Pérsia, creme de leite fresco e folhas de hortelã. Intenso, cremoso e extremamente saboroso!",
+      "price": 34.9,
+      "imageUrl": "https://www.divvino.com.br/blog/wp-content/uploads/2022/03/drinks-com-cafe-lady-winter.jpg"
+    },
+    {
+      "id": 6,
+      "name": " Expresso tonic",
+      "description": "O Expresso Tonic é um drink com café e gin muito refrescante! A receita mistura uma dose de café expresso com suco de limão, uma dose de destilado e muito gelo. Essa é uma ótima opção para quem quer experimentar novos coquetéis diferentes para os dias quentes do verão.",
+      "price": 19,
+      "imageUrl": "https://www.divvino.com.br/blog/wp-content/uploads/2022/03/drinks-com-cafe-expresso-tonic.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Milk shake de café",
+      "description": "Quem é apaixonado por café não abre mão da bebida nem no verão e nas altas temperaturas. Nessas horas, o café gelado acaba se tornando uma ótima opção. Afinal, nada melhor do que uma bebida refrescante nos dias ensolarados, não é mesmo?",
+      "price": 15.99,
+      "imageUrl": "https://www.guiadasemana.com.br/contentFiles/image/opt_w720h445/2018/11/FEA/50780_shutterstock-163466897.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Café tropical",
+      "description": "Quem é apaixonado por café não abre mão da bebida nem no verão e nas altas temperaturas. Nessas horas, o café gelado acaba se tornando uma ótima opção. Afinal, nada melhor do que uma bebida refrescante nos dias ensolarados, não é mesmo?",
+      "price": 14.9,
+      "imageUrl": "https://www.guiadasemana.com.br/contentFiles/image/opt_w720h445/2018/11/FEA/50780_shutterstock-420896893.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Café instantâneo gelado cremoso",
+      "description": "Quem é apaixonado por café não abre mão da bebida nem no verão e nas altas temperaturas. Nessas horas, o café gelado acaba se tornando uma ótima opção. Afinal, nada melhor do que uma bebida refrescante nos dias ensolarados, não é mesmo?",
+      "price": 16,
+      "imageUrl": "https://www.guiadasemana.com.br/contentFiles/image/opt_w720h445/2018/11/FEA/50780_shutterstock-289454174.jpg"
     }
   ]
 }
